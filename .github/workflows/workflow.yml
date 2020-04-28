@@ -7,7 +7,7 @@ jobs:
     name: Add labels to issues
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Issue Due Dates Action
+      - name: Due Dates
         uses: alexleventer/github-issue-due-dates-action@1.0.9
         with:
           GH_TOKEN: "${{ secrets.GH_TOKEN }}"
